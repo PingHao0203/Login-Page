@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right, #2ecc40, #ffdc00);
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.main {
+  position: absolute;
+  left: 38%;
+  top: 17%;
+  width: 400px;
+  height: 450px;
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.p-account {
+  position: absolute;
+  left: 19%;
+  top: 20%;
+}
+
+.text-account {
+  position: absolute;
+  left: 37%;
+  top: 23%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.p-password {
+  position: absolute;
+  left: 18%;
+  top: 35%;
+}
+
+.text-password {
+  position: absolute;
+  left: 37%;
+  top: 38%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.login {
+  position: absolute;
+  left: 37%;
+  top: 58%;
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  font-family: Comic Sans MS, Comic Sans, cursives;
+}
+
+.login:hover {
+  background-color: #d3d3d3;
+}
+
+.forget-account {
+  position: absolute;
+  left: 25%;
+  top: 75%;
+  text-decoration: underline;
+}
+
+.forget-account:hover {
+  color: blue;
+}
